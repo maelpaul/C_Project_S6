@@ -1,0 +1,5 @@
+.vscode
+*.o*
+*~
+src/server/server_debug/
+coverage/
