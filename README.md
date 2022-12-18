@@ -5,8 +5,6 @@ Projet Flood {#mainpage}
 
 - [Sujet du projet](https://www.labri.fr/perso/renault/working/teaching/projets/2021-22-S6-C-Flood.php)
 
-- [Page sur thor](https://thor.enseirb-matmeca.fr/ruby/projects/projetss6-flood)
-
 - [Documentation du projet](https://vlohezic.gitlab.io/documentation_flood/)
 
 ## Coding Style 
