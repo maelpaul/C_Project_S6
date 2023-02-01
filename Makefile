@@ -6,7 +6,7 @@ DEBUG_DIR=server_debug
 DISP_DIR=display
 
 CC ?= cc 
-GSL_PATH?= /net/ens/renault/save/gsl-2.6/install
+GSL_PATH?=~/gsl
 CFLAGS = -Wall -Wextra -std=c99 -g -fPIC -I $(GSL_PATH)/include -I ${SRC}/ -I ${SRC}/${CLI_DIR} -I ${SRC}/${CLI_DIR}/queue -fprofile-arcs -ftest-coverage
 CFLAGS_TEST = -std=c99 -g -I $(GSL_PATH)/include -I ${SRC}/${CLI_DIR} -I ${SRC}/ -I ${SRC}/${CLI_DIR}/queue -fprofile-arcs -ftest-coverage
 LDFLAGS=-L$(GSL_PATH)/lib -lgsl -lgslcblas -lm -lgcov --coverage
